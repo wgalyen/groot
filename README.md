@@ -2,6 +2,10 @@
 
 A simple tiling window manager for Windows, written in Rust. Inspired by Budgie Window Shuffler's grid functionality. Currently only tested on a single monitor.
 
+## Download
+
+- Download executable from [latest release](https://github.com/wgalyen/groot/releases/latest)
+
 ## Usage
 
 - Run `groot.exe` or `cargo run`. Program will run in the background.
@@ -13,6 +17,7 @@ A simple tiling window manager for Windows, written in Rust. Inspired by Budgie 
 
 ## TODO
 
+- Multi-monitor support
 - System tray icon
 - Settings window to edit hotkey & margin config
 - Option to autostart
