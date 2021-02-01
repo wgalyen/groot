@@ -2,6 +2,12 @@
 
 A simple tiling window manager for Windows, written in Rust. Inspired by Budgie Window Shuffler's grid functionality. Currently only tested on a single monitor.
 
+- [Demo](#demo)
+- [Download](#download)
+- [Usage](#usage)
+- [Config](#config)
+- [TODO](#todo)
+
 ## Download
 
 - Download executable from [latest release](https://github.com/wgalyen/groot/releases/latest)
@@ -15,9 +21,12 @@ A simple tiling window manager for Windows, written in Rust. Inspired by Budgie 
 - Select a window you want resized, then click on a tile in the grid. Window will resize to that zone.
 - Hold `SHIFT` down while hovering after a selection, zone will increase in size across all tiles. Select again to resize to larger zone.
 
+## Config
+
+- A configuration file will be created at `%APPDATA%\groot\config.yml` that can be customized. You can also open the config file from the system tray icon.
+
 ## TODO
 
 - Multi-monitor support
-- System tray icon
-- Settings window to edit hotkey & margin config
+- Settings window with hotkey configuration
 - Option to autostart
