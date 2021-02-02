@@ -41,6 +41,7 @@ pub unsafe fn spawn_sys_tray() {
         let mut class = mem::zeroed::<WNDCLASSEXW>();
         class.cbSize = mem::size_of::<WNDCLASSEXW>() as u32;
         class.lpfnWndProc = Some(callback);
+        class.hInstance = hInstance;
         class.lpszClassName = class_name.as_ptr();
         class.hbrBackground = CreateSolidBrush(RGB(0, 77, 128));
 
@@ -224,7 +225,7 @@ unsafe extern "system" fn callback(
                 }
                 ID_CONFIG => {
                     if let Some(mut config_path) = dirs::config_dir() {
-                        config_path.push("Groot");
+                        config_path.push("groot");
                         config_path.push("config.yml");
 
                         if config_path.exists() {

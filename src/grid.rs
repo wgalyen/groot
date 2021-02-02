@@ -217,6 +217,7 @@ impl Grid {
         if self.rows() > 1 {
             self.tiles.pop();
         }
+        self.save_config();
     }
 
     pub fn remove_column(&mut self) {

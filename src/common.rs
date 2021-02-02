@@ -81,9 +81,9 @@ pub unsafe fn report_and_exit(error_msg: &str) {
     error_msg.push(0);
 
     MessageBoxW(
-        ptr::null_mut(), 
-        error_msg.as_mut_ptr(), 
-        ptr::null_mut(), 
+        ptr::null_mut(),
+        error_msg.as_mut_ptr(),
+        ptr::null_mut(),
         MB_OK,
     );
 
