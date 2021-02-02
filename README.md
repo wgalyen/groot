@@ -24,6 +24,8 @@ A simple tiling window manager for Windows, written in Rust. Inspired by Budgie 
 
 ## Config
 
+See [example config](https://github.com/wgalyen/groot/wiki/Example-Config) in the wiki for a full list of all options.
+
 - A configuration file will be created at `%APPDATA%\groot\config.yml` that can be customized. You can also open the config file from the system tray icon.
 
 ## TODO
