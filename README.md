@@ -31,5 +31,4 @@ See [example config](https://github.com/wgalyen/groot/wiki/Example-Config) in th
 ## TODO
 
 - Multi-monitor support
-- Settings window with hotkey configuration
 - Option to autostart
