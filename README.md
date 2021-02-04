@@ -31,5 +31,4 @@ See [example config](https://github.com/wgalyen/groot/wiki/Example-Config) in th
 
 ## TODO
 
-- Option to autostart
 - Switchable "profiles" via F-keys
